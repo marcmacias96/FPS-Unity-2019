@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6CC92EE2-C97E-2137-C111-F092707B90B5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FPS/Scripts/Health.cs">
+    <Files>
+      <File FileName="Assets/Scripts/destroy.cs" Line="17" Column="27" />
+      <File FileName="Assets/FPS/Scripts/Health.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FPS" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="FPS" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Health.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5d8d8cfe-f080-4877-92cd-d1ba752948bb" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
