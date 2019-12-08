@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destroy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public List<GameObject>  enemies;
     void Start()
     {
         
@@ -13,7 +13,9 @@ public class destroy : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        Debug.Log("Hola");
+        foreach(GameObject enemy in enemies)
+        {
+            enemy.SetActive(true);
+        }
     }
 }
