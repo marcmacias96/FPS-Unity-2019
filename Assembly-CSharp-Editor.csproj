@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3CFCF824-E341-FE1E-8C1F-B6374807FF30}</ProjectGuid>
+    <ProjectGuid>{3F414839-95F2-887A-CBD0-B66200B18AA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -65,85 +65,86 @@
   <ItemGroup>
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
+    <Compile Include="Assets\Editor\LomenuEditor.cs" />
     <Compile Include="Assets\FPS\Scripts\Editor\MiniProfiler.cs" />
     <Compile Include="Assets\FPS\Scripts\Editor\PrefabReplacerEditor.cs" />
     <Compile Include="Assets\FPS\Scripts\Editor\ShaderBuildStripping.cs" />
     <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
     <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\settings\PackageImportList_ShaderGraph.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.024">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -338,10 +339,10 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -700,15 +701,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6CC92EE2-C97E-2137-C111-F092707B90B5}</Project>
+      <Project>{E3E9629E-5FC7-004B-F596-55B7BC8528F9}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{37DE08A5-651F-B9DB-D2D9-BDAC5ED511D6}</Project>
+      <Project>{93AEB310-015B-B563-B244-055C216C1D09}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{C805B0C6-BA1C-684C-66A3-6971DA60152E}</Project>
+      <Project>{58B5BF52-0D54-5861-534F-92FBE4596E30}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

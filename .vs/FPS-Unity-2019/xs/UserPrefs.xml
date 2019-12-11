@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{E3E9629E-5FC7-004B-F596-55B7BC8528F9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FPS/Scripts/UI/LoadSceneButton.cs">
+    <Files>
+      <File FileName="Assets/Prefabs/New Folder/KeyDoor.cs" Line="25" Column="6" />
+      <File FileName="Assets/FPS/Scripts/UI/LoadSceneButton.cs" Line="23" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FPS-Unity-2019" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="FPS" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="UI" expanded="True">
+                    <Node name="LoadSceneButton.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Prefabs" expanded="True">
+                <Node name="New Folder" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4c382fd2-0e2e-4a09-9c77-d570ebe137b0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

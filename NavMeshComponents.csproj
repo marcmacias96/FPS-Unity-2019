@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C805B0C6-BA1C-684C-66A3-6971DA60152E}</ProjectGuid>
+    <ProjectGuid>{58B5BF52-0D54-5861-534F-92FBE4596E30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NavMeshComponents</AssemblyName>
@@ -68,10 +68,10 @@
     <Compile Include="Assets\FPS\Scripts\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\FPS\Scripts\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,7 +266,7 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -5,7 +5,8 @@ using UnityEngine;
 public class KeyDoor : MonoBehaviour
 {
     [SerializeField] private Key.KeyType keyType;
-    public Animator anim;
+    private Animator anim;
+    public Light luz;
 
     public void Start()
     {
@@ -20,6 +21,7 @@ public class KeyDoor : MonoBehaviour
     public void OpenDoor() {
         //gameObject.SetActive(false);
         anim.SetBool("puerta",true);
+        luz.color = Color.green;
     }
 
 

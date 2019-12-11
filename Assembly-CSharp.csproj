@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6CC92EE2-C97E-2137-C111-F092707B90B5}</ProjectGuid>
+    <ProjectGuid>{E3E9629E-5FC7-004B-F596-55B7BC8528F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -142,6 +142,25 @@
     <Compile Include="Assets\FPS\Scripts\WeaponController.cs" />
     <Compile Include="Assets\FPS\Scripts\WeaponFuelCellHandler.cs" />
     <Compile Include="Assets\FPS\Scripts\WeaponPickup.cs" />
+    <Compile Include="Assets\Lomenu UI\3rd Party Assets\Dissolve Edge by Moonflower Carnivore\Scripts\HideIfDisabledDrawer.cs" />
+    <Compile Include="Assets\Lomenu UI\Experimental\Trigger Popup\Scripts\TriggerUI.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_BrightnessAdjustment.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_ButtonSound.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_DissolveEdge.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_Exit.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_LaunchURL.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_ManageBlur.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_MenuCamControl.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_PAK.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_PanelAnim.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_PressAnyKey.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_PUBG.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_PUBG_Button.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_Quality.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_RotateObject.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_TiltWindow.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_UIAnimManager.cs" />
+    <Compile Include="Assets\Lomenu UI\Scripts\LUI_Volume.cs" />
     <Compile Include="Assets\Prefabs\New Folder\Key.cs" />
     <Compile Include="Assets\Prefabs\New Folder\KeyDoor.cs" />
     <Compile Include="Assets\Prefabs\New Folder\KeyHolder.cs" />
@@ -149,6 +168,7 @@
     <None Include="Assets\FPS\Art\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Lomenu UI\3rd Party Assets\Dissolve Edge by Moonflower Carnivore\Shaders\Transparent_Unlit_DissolveEdge.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\FPS\Prefabs\Level\BaseObjects\_ReadMe_BaseObjects.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -158,10 +178,12 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Lomenu UI\3rd Party Assets\Dissolve Edge by Moonflower Carnivore\readme_DissolveEdge.txt" />
     <None Include="Assets\FPS\Third-PartyNotice.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Lomenu UI\Shaders\UI Blur.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -171,74 +193,75 @@
     <None Include="Assets\FPS\Art\Fonts\ApacheLicense2.0.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Lomenu UI\Read Me.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.024">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -418,7 +441,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -777,11 +800,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{37DE08A5-651F-B9DB-D2D9-BDAC5ED511D6}</Project>
+      <Project>{93AEB310-015B-B563-B244-055C216C1D09}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{C805B0C6-BA1C-684C-66A3-6971DA60152E}</Project>
+      <Project>{58B5BF52-0D54-5861-534F-92FBE4596E30}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
