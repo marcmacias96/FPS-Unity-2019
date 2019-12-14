@@ -7,6 +7,7 @@ public class KeyDoor : MonoBehaviour
     [SerializeField] private Key.KeyType keyType;
     private Animator anim;
     public Light luz;
+    public List<GameObject> enemies;
 
     public void Start()
     {
@@ -22,6 +23,11 @@ public class KeyDoor : MonoBehaviour
         //gameObject.SetActive(false);
         anim.SetBool("puerta",true);
         luz.color = Color.green;
+        foreach (GameObject enemy in enemies)
+        {
+            enemy.SetActive(true);
+        }
+
     }
 
 
