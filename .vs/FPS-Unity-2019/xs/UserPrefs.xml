@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{E3E9629E-5FC7-004B-F596-55B7BC8528F9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DB/DataScripts/DBPersistence.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DB/Entity/PlayerEntity.cs">
     <Files>
       <File FileName="Assets/Prefabs/New Folder/KeyDoor.cs" Line="25" Column="33" />
       <File FileName="Assets/FPS/Scripts/UI/LoadSceneButton.cs" />
       <File FileName="Assets/Scripts/destroy.cs" />
       <File FileName="Assets/FPS/Scripts/Health.cs" />
-      <File FileName="Assets/Scripts/DB/Entity/GameEntity.cs" />
-      <File FileName="Assets/Scripts/DB/DBInterface/DBPlayer.cs" Line="17" Column="57" />
-      <File FileName="Assets/Scripts/DB/DataScripts/DBPersistence.cs" Line="26" Column="27" />
+      <File FileName="Assets/Scripts/DB/Entity/GameEntity.cs" Line="15" Column="10" />
+      <File FileName="Assets/Scripts/DB/DBInterface/DBPlayer.cs" Line="12" Column="33" />
+      <File FileName="Assets/Scripts/DB/DataScripts/DBPersistence.cs" Line="41" Column="34" />
+      <File FileName="Assets/FPS/Scripts/Pickup.cs" Line="63" Column="76" />
+      <File FileName="Assets/Scripts/DB/SqliteHelper.cs" Line="7" Column="18" />
+      <File FileName="Assets/Scripts/DB/Entity/PlayerEntity.cs" Line="11" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

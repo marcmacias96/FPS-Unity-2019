@@ -8,10 +8,10 @@ namespace DataBank
     {
         public int _idPlayer;
         public int _health;
-        public Transform _position;
+        public Vector3 _position;
         public int _weapons;
 
-        public PlayerEntity(int id, int health, Transform pos, int weapons)
+        public PlayerEntity(int id, int health, Vector3 pos, int weapons)
         {
             _idPlayer = id;
             _health = health;

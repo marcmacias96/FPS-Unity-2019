@@ -53,9 +53,9 @@ namespace DataBank
                         + "VALUES ( '"
                         + player._idPlayer + "', '"
                         + player._health + "', '"
-                        + player._position.position.x + "', '"
-                        + player._position.position.y + "', '"
-                        + player._position.position.z + "', '"
+                        + player._position.x + "', '"
+                        + player._position.y + "', '"
+                        + player._position.z + "', '"
                         + player + "' )";
             dbcm.ExecuteNonQuery();
         }

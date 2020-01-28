@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using DataBank;
+using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody), typeof(Collider))]
@@ -50,6 +52,35 @@ public class Pickup : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.tag == "Level")
+        {
+            GameObject gameManager = GameObject.Find("GameManager");
+            PlayerDB playerDB = new PlayerDB();
+            PlayerEntity playerEntity;
+            GameEntity gameEntity;
+            System.Data.IDataReader readerPlayer = playerDB.getDataById(1);
+            while (readerPlayer.Read())
+            {
+                playerEntity = new PlayerEntity(Int32.Parse(readerPlayer[0].ToString()),
+                    Int32.Parse(readerPlayer[1].ToString()),
+                    new Vector3(Int32.Parse(readerPlayer[3].ToString()), Int32.Parse(readerPlayer[4].ToString()), Int32.Parse(readerPlayer[5].ToString())),
+                    Int32.Parse(readerPlayer[2].ToString()));
+
+            }
+            GameDB gameDB = new GameDB();
+            System.Data.IDataReader readerGame = gameDB.getDataById(1);
+            while (readerGame.Read())
+            {
+                gameEntity = new GameEntity(
+                    Int32.Parse(readerPlayer[0].ToString()),
+                    Int32.Parse(readerPlayer[1].ToString()),
+                    Int32.Parse(readerPlayer[2].ToString()),
+                    Int32.Parse(readerPlayer[3].ToString()));
+
+            }
+
+
+        }
         PlayerCharacterController pickingPlayer = other.GetComponent<PlayerCharacterController>();
 
         if (pickingPlayer != null)

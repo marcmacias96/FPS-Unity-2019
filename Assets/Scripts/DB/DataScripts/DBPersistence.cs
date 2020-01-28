@@ -41,9 +41,9 @@ public class DBPersistence : MonoBehaviour
         while (readerGame.Read())
         {
             GameEntity game = new GameEntity(Int32.Parse(readerGame[0].ToString())  ,
-                                   Int32.Parse(readerGame[0].ToString()),
-                                     Int32.Parse(readerGame[0].ToString()),
-                                     Int32.Parse(readerGame[0].ToString()));
+                                   Int32.Parse(readerGame[1].ToString()),
+                                     Int32.Parse(readerGame[2].ToString()),
+                                     Int32.Parse(readerGame[3].ToString()));
 
             Debug.Log("id: " + game._idGame);
             myGame.Add(game);
@@ -51,7 +51,7 @@ public class DBPersistence : MonoBehaviour
 
         if (myGame.Count == 0)
         {
-            playerDB.addData(new PlayerEntity(1, 100, playerTransform, 1));
+            playerDB.addData(new PlayerEntity(1, 100, playerTransform.position, 1));
             gameDB.addData(new GameEntity(1, time.count, 1, 1));
         }
     }

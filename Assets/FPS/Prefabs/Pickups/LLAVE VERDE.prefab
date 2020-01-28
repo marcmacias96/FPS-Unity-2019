@@ -245,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LLAVE VERDE
       objectReference: {fileID: 0}
+    - target: {fileID: 5839755740926436053, guid: 4bd961dba82a0403a99572e836129722,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level
+      objectReference: {fileID: 0}
     - target: {fileID: 7444911150524862662, guid: 4bd961dba82a0403a99572e836129722,
         type: 3}
       propertyPath: m_LocalPosition.x
