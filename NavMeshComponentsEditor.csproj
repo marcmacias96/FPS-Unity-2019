@@ -273,6 +273,15 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Data">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.SqliteClient">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>

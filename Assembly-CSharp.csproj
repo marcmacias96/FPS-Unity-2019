@@ -214,6 +214,13 @@
     <Compile Include="Assets\Prefabs\New Folder\Key.cs" />
     <Compile Include="Assets\Prefabs\New Folder\KeyDoor.cs" />
     <Compile Include="Assets\Prefabs\New Folder\KeyHolder.cs" />
+    <Compile Include="Assets\Scripts\DB\DataScripts\DBPersistence.cs" />
+    <Compile Include="Assets\Scripts\DB\DBInterface\DBGame.cs" />
+    <Compile Include="Assets\Scripts\DB\DBInterface\DBPlayer.cs" />
+    <Compile Include="Assets\Scripts\DB\Entity\GameEntity.cs" />
+    <Compile Include="Assets\Scripts\DB\Entity\PlayerEntity.cs" />
+    <Compile Include="Assets\Scripts\DB\SqliteHelper.cs" />
+    <Compile Include="Assets\Scripts\DB\Test\test.cs" />
     <Compile Include="Assets\Scripts\destroy.cs" />
     <Compile Include="Assets\Scripts\TTIME.cs" />
     <None Include="Assets\FPS\Art\Shaders\ProjectorMultiply.shader" />
@@ -491,6 +498,15 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.SqliteClient">
+      <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>/Users/marcomacias/Documents/UnityProyects/FPS-Unity-2019/Library/PackageCache/com.unity.connect.share@1.0.6-preview.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
