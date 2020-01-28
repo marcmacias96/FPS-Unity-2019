@@ -55,9 +55,10 @@ public class Pickup : MonoBehaviour
         if(other.tag == "Level")
         {
             GameObject gameManager = GameObject.Find("GameManager");
+            Transform playerTransform = GameObject.Find("Player").transform;
             PlayerDB playerDB = new PlayerDB();
-            PlayerEntity playerEntity;
-            GameEntity gameEntity;
+            PlayerEntity playerEntity = null;
+            GameEntity gameEntity = null;
             System.Data.IDataReader readerPlayer = playerDB.getDataById(1);
             while (readerPlayer.Read())
             {
@@ -77,6 +78,13 @@ public class Pickup : MonoBehaviour
                     Int32.Parse(readerPlayer[2].ToString()),
                     Int32.Parse(readerPlayer[3].ToString()));
 
+            }
+            if(playerEntity != null || gameEntity != null)
+            {
+                
+            } else
+            {
+                Debug.Log("Error al recuperar los datos");
             }
 
 
